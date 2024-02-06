@@ -1,0 +1,55 @@
+.home-title {
+    margin: 0;
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-family: "Arial Black", Arial, Helvetica, sans-serif;
+    color: white;
+
+    background-image: url("./images/theseus.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-title div {
+    margin: auto;
+    
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+
+    background-color: #212121;
+}
+
+.home-title h1, .home-title h2 {
+    margin: 30px;
+}
+
+.home-title h1 {
+    font-size: 100px;
+}
+
+.home-title h2 {
+    font-size: 2.3vw;
+}
+
+.home-title span {
+    margin: 100px;
+}
+
+.home-title a:link, .home-title a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.home-title a:hover, .home-title a:active {
+    text-decoration: none;
+    color: grey;
+}
